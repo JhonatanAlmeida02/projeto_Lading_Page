@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Projeto Figma</title>
+</head>
+<body>
+
+    <!-- MENU SUPERIOR -->
+    <div id="menusuperior">
+        <a href="https://www.escoladnc.com.br/">
+            <img id="logo" src="./img/logo.svg" alt="Erro">
+        </a>
+        <h1 id="titulo_menusuperior">Dê os primeiros passos da <br>
+            sua carreira em Tecnologia
+        </h1>
+        <p id="titulo_menusuperior">Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.
+        </p>
+    </div>
+    <!-- MENU INFORMATIVO-->
+
+    <div id="menuinformacional">
+        <p class="textoinformativo"><img src="./icones/certificado.svg" class="icone" alt="">Certicado de conclução</p>
+        <p class="textoinformativo"><img src="./icones/relogio.svg" class="icone" alt="">4 horas de conteúdo</p>
+        <p class="textoinformativo"><img src="./icones/camera.svg" class="icone" alt="">Aulas on-line gravadas</p>
+    </div>
+
+    <!-- SEÇÃO VIDEO -->
+    <div id="secaovideo">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/MKhl3hhwjBA" title="A Arca: a travessia de quem cansou de sobreviver no mercado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div id="informativovideo"> 
+        <h1 id="titulovideo">
+            Aprenda com especialistas e <br>
+            comece seu primeiro projeto
+        </h1> <br><br>
+        <p id="textovideo">
+            Conheça o processo de desenvolvimento e entenda como utilizar <br>
+            os principais métodos e ferramentas da área para <br>
+            resolver problemas complexos. <br><br>
+
+            Conquiste seu certificado e desenvolva um projeto prático para <br>
+            aplicar seus conhecimentos.
+        </p>
+    </div>
+    </div>
+
+    <!-- CARROCEL -->
+     <div id="carrocel">
+        <h1 id="titulocarrocel">
+            Mais de 500 alunos já iniciaram seus estudos
+        </h1>
+        <div id="cardcarrocel">
+            <img src="./icones/setaesquerda.svg" id="setaesquerda" alt="" onclick="RolarParaEsquerda()">
+            <img src="./cards/bruna.svg" id="bruna" class= "card" alt="">
+            <img src="./cards/leandro.svg" id="leonardo" class= "card" alt="">
+            <img src="./cards/samantha.svg" id="samantha" class= "card" alt="">
+            <img src="./icones/setadireita.svg" id="setadireita" alt="" onclick="RolarParaDireita()">
+        </div>
+     </div>
+
+    <!-- FORMULARIO -->
+     <div id="formulario">
+        <h1 id="titulo_formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/wMaCihjes8owpL3nWJumuS" method="post">
+            <input type="text" placeholder="Nome" name="Nome" required><br>
+            <input type="email" name="Email" id="" placeholder="E-mail" required><br>
+            <input type="number" name="Telefone" id="" placeholder="Telefone" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+        </form>
+     </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+#titulo_menusuperior{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#menusuperior{
+    background-image: url(img/fundo_logo.svg);
+    color: white;
+    padding-bottom: 100px;
+}
+
+#menuinformacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titulovideo{
+    color: #247ba0;
+    margin: 50px 25px 50px 75px;
+}
+
+#textovideo{
+   margin: 0px 25px 0px 75px;
+}
+
+#video{
+    margin: 50px 25px 50px 75px;
+}
+
+#carrocel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrocel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cardcarrocel{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 50px 15px 20px 15px;
+    align-items: center;
+}
+
+.card{
+    margin-left: 20px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#samantha{
+    display: none;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo_formulario{
+    font-size: 25px;
+    margin: 25px;
+}
+
+input{
+    background-color: #eaece5;
+    margin: 15px;
+    width: 300px;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #247ba0;
+    width: 250px;
+    height: 45px;
+    border: 0px;
+    border-radius: 3px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2a7899;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #000000;
+    transition-duration: 1s;
+}
